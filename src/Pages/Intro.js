@@ -1,14 +1,20 @@
 import profile from "../profile.JPG"
 import {motion} from "framer-motion";
 
-export default function Intro(){
-    return(
-        <motion.div className={"flex-col items-center align-middle"}>
-            <img src={profile} className={"h-72 w-72 border-4 border-amber-300 shadow-xl shadow-amber-200 my-8 justify-self-center rounded-full mx-auto"} alt={"profile"}/>
-            <motion.p className={"font-mono text-2xl my-8"}>
-                Hello My Name is Mukul. <br/>I am a Full Stack Web Developer.<br/>
-                I have a passion for creating web applications.
-            </motion.p>
+export default function Intro() {
+    return (
+        <motion.div className={"flex-col w-full items-center align-middle"}>
+
+            <img src={profile}
+                 className={"h-72 w-72 align-middle border-4 border-amber-300 shadow-xl shadow-amber-200 my-8 justify-self-center rounded-full mx-auto"}
+                 alt={"profile"}/>
+            <div className={"mx-auto w-1/2 my-20"}>
+                <motion.p className={"font-mono mx-4 text-2xl w-full"} align={"center"}>
+                    Hello My Name is Mukul.<br/>I am a Front End Web Developer.<br/>
+                    I have a passion for creating web applications.
+                </motion.p>
+            </div>
+
         </motion.div>
     )
 }
