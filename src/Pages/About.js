@@ -43,6 +43,20 @@ export default function About() {
                     </motion.h1>
                 </div>
             </div>
+            <div className={"flex-col my-8 dark:shadow-gray-700 rounded-xl mx-20 shadow-sm shadow-cyan-200 items-center justify-center"}>
+                <h1 className={"font-mono dark:text-white font-bold p-4 underline text-3xl w-full "}>Coding Profiles</h1>
+                <div className={"mx-4 flex-col align-middle justify-center "}>
+                    <motion.h1 initial={{x: -550, overflow: "hidden"}} animate={{x: 0}} transition={{delay: .8}}
+                               className={"font-mono dark:text-green-500 underline hover:no-underline font-thin p-1.5 w-fit text-2xl text-blue-500"}>
+                        <a href={"https://leetcode.com/mukulphougat/"} target={"_blank"} rel={"noreferrer"}>Leetcode</a>
+                    </motion.h1>
+                    <motion.h1 initial={{x: -550, overflow: "hidden"}} animate={{x: 0}} transition={{delay: .8}}
+                               className={"font-mono dark:text-green-500 underline hover:no-underline font-thin p-1.5 w-fit text-2xl text-blue-500"}>
+                        <a href={"https://auth.geeksforgeeks.org/user/mukulphoughat/practice/"} target={"_blank"} rel={"noreferrer"}>GeeksForGeeks</a>
+                    </motion.h1>
+
+                </div>
+            </div>
         </motion.div>
     )
 }
