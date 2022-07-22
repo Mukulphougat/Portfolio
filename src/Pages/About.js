@@ -5,7 +5,7 @@ export default function About() {
     return (
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}
                     transition={{type: "just", stiffness: 100, delay: 0.5}} className="w-full h-full font-bold">
-            <div className={"flex-col my-1 rounded-xl dark:shadow-gray-700 mx-20 shadow-sm shadow-cyan-200 items-center justify-center"}>
+            <div className={"flex-col my-1 rounded-xl my-2 dark:shadow-gray-700 mx-20 shadow-sm shadow-cyan-200 items-center justify-center"}>
                 <motion.h1 className={"font-mono dark:text-white font-bold p-4 underline text-3xl w-full "}>Education</motion.h1>
                 <div className={"mx-4"}>
                     <div className={'flex w-full align-middle'}>
