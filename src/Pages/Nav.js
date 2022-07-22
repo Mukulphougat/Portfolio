@@ -9,7 +9,7 @@ import resume from "./resume.png";
 import github from "./github.png";
 export default function Nav(){
     return(
-        <div className="flex-col bg-gray-900 fixed bg-white top-0 h-full w-10 align-middle justify-between">
+        <div className="flex-col dark:bg-gray-900 fixed bg-white top-0 h-full w-10 align-middle justify-between">
 
             <Link to={"/"} className="text-2xl mx-auto fixed top-2 hover:bg-opacity-50 "><motion.img whileTap={{ scale: 0.8 }} src={logos} className={"w-10 h-10"} alt={"logo"}/></Link>
             <div className={"flex-col mx-1 fixed bottom-5 justify-center align-middle my-1"}>
