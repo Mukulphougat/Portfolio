@@ -3,7 +3,7 @@ import app1 from "./mApp1.png"
 export default function Projects(){
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ type: "just", stiffness: 100, delay: 0.5}} className="flex-col w-full h-full">
-            <div className={"flex-col border-2 dark:shadow-gray-500 border-black my-8 rounded-xl mx-20 shadow-sm shadow-cyan-200 items-center justify-center"}>
+            <div className={"flex-col dark:shadow-gray-500 my-8 rounded-xl mx-20 shadow-sm shadow-cyan-200 items-center justify-center"}>
                 <h1 className={"font-mono dark:text-white  font-bold p-4 underline text-3xl w-full "}>Projects</h1>
                 <motion.div initial={{x: -750, overflow: "hidden"}} animate={{x: 0}} transition={{delay: .8}} className={"flex-col align-middle p-4 w-full"}>
                     <div className={"flex-col w-full"}>
