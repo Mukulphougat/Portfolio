@@ -16,7 +16,7 @@ export default function Projects(){
                                 And we can also add to favorites. And we can also delete from favorites.<br/>
                                 <a className={"text-blue-800 underline hover:no-underline"} href={"https://github.com/Mukulphougat/musicappnext"} target={"_blank"} rel={"noreferrer"}>GITHUB LINK</a>
                                 <br/>
-                                <span className={"text-2xl text-blue-500"}>Tech Used:</span> Spring Boot, Next Js, Mongo DB, Azure.
+                                <span className={"text-2xl text-blue-500"}>Tech Used:</span> Spring Boot, React Js, Graph QL, Mongo DB, Azure.
                             </motion.div>
                         </div>
                     </div>
