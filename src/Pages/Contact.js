@@ -25,6 +25,6 @@ export default function Contact(){
                     <a href={"https://www.linkedin.com/in/mukul-phougat-602657193/"} target={"_blank"} rel={"noreferrer"}><h1 className={"font-mono white mx-4 underline hover:no-underline"}>LinkedIn</h1></a>
                 </div>
             </div>
-            <img src={helloWorld} className={"md:w-1/2 rounded-lg self-center md:h-80"} alt={"Hello World!"}/>
+            <img  src={helloWorld} className={"md:w-1/2 rounded-lg self-center md:h-80"} alt={"Hello World!"}/>
         </motion.div>)
 }
