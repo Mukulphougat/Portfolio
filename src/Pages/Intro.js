@@ -24,7 +24,7 @@ export default function Intro() {
                 {/*    </motion.p>*/}
                 {/*</div>*/}
             </div>
-            <h1 className={"absolute bottom-[100px] sm:self-center text-white dark:text-blue-900 text-2xl font-mono"}>Hello My Name Is <span className={"dark:text-green-500"}>{myName}</span></h1>
+            <h1 className={"absolute bottom-[100px] sm:self-center text-white text-2xl font-mono dark:text-green-500"}>{myName}</h1>
             <div className={"absolute flex justify-center flex-row bottom-10 sm:self-center text-white dark:text-blue-900 text-2xl font-mono"}>
                 <a href={"mailto:mukulphoughat@gmail.com"}><img src={gmailIcon} alt={"GmailIcon"} className={"animate-bounce h-10 mx-4 w-10"}/></a>
                 <a href={"https://github.com/Mukulphougat?tab=repositories"} target={"_blank"} rel={"noreferrer"}><img src={githubIcon} alt={"GithubIcon"} className={"animate-bounce h-10 mx-4 w-10"}/></a>
